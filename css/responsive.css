@@ -1,0 +1,19 @@
+@media(max-width: 425px){
+    .secao{
+        height: 100vh;
+        width: 100vw;
+    }
+  
+    .container{
+        margin: 0 auto;
+        height: 100vh;
+        width: 100vw;
+        border-radius: 0px;
+        background: url('https://i.pinimg.com/564x/b2/2e/f8/b22ef85ead7ec4d1b27421e88bede2d0.jpg') center center no-repeat;
+        background-size: cover;
+    }
+
+    .display{
+        background: #000000;
+    }
+}

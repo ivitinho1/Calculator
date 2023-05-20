@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <section class="secao">
+    <div class="container">
+        <input class="display"> 
+        <button class="botao-cinza" onclick="limpatela()">AC</button>
+        <button class="botao-cinza" onclick="inverternumero('+/-')">+/-</button>
+        <button class="botao-azul" onclick="adicionarCaracter('/')">/</button>
+        <button class="botao-azul" onclick="adicionarCaracter('*')">*</button>
+        <button class="botao-preto" onclick="adicionarCaracter('7')">7</button>
+        <button class="botao-preto" onclick="adicionarCaracter('8')">8</button>
+        <button class="botao-preto" onclick="adicionarCaracter('9')">9</button>
+        <button class="botao-azul" onclick="adicionarCaracter('-')">-</button>
+        <button class="botao-preto" onclick="adicionarCaracter('4')">4</button>
+        <button class="botao-preto" onclick="adicionarCaracter('5')">5</button>
+        <button class="botao-preto" onclick="adicionarCaracter('6')">6</button>
+        <button class="botao-azul" onclick="adicionarCaracter('+')">+</button>
+        <button class="botao-preto" onclick="adicionarCaracter('1')">1</button>
+        <button class="botao-preto" onclick="adicionarCaracter('2')">2</button>
+        <button class="botao-preto" onclick="adicionarCaracter('3')">3</button>
+        <button class="botao-igual igual" onclick="calcular()">=</button>
+        <button class="botao-preto zero" onclick="adicionarCaracter('0')">0</button>
+        <button class="botao-preto" onclick="adicionarCaracter('.')">.</button>
+    </div>
+</section>
+</body>
+<script src="index.js"></script>
+</html>
