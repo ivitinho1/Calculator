@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body{
+    background: url('https://i.pinimg.com/564x/bc/02/3b/bc023b0704303571a327e64babd9d10e.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: linear-gradient(191.34deg, #17181a -4.95%, #17181a 103.74%);
+    height: 568px;
+    border-radius: 39px;
+    width: 375px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr) ;
+    padding: 20px;
+}
+input {
+   font-size: 48px;
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+    background:  #17181a ;
+    border: none;
+    outline: none;
+    text-align: right;
+    padding-top: 60px;
+}
+button{
+    font-size: 24px;
+    border-radius: 16px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+    background-color: orange ;
+    transition: 0.5s;
+}
+button:active{
+    opacity: 0.6;
+}
+.botao-preto{
+    background: #303136;
+}
+.botao-azul{
+    background: #005d;
+}
+.botao-igual{
+    background: #1991ff;
+}
+.botao-cinza{
+    background: #616161 ;
+}
+.zero{
+    grid-column: 1 / 3;
+}
+.igual{
+    grid-row: 6 / 8 ;
+    grid-column: 4 / 5;
+}
+
